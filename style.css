@@ -41,7 +41,7 @@ body{
     align-items: center;  
     margin: auto;
 
-    background-color: black; /* Green */
+    background-color: black; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -54,7 +54,12 @@ body{
     font-family: 'Mountains of Christmas', cursive;
 
     font-size: 18px;
+    transition: 0.2s;
 
+}
+
+#btn-translate:hover{
+    transform: scale(1.2);
 }
 
 .header{
